@@ -1,0 +1,27 @@
+/* globals.css */
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white; /* veya navbar ile aynı koyu mavi */
+}
+
+#__next {
+  margin: 0;
+  padding: 0;
+}
+
+body.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9fafb; 
+  color: #1a1a1a;
+}
+
+main.content {
+  flex: 1;
+}

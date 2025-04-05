@@ -1,0 +1,14 @@
+.footer {
+    background-color: rgb(16, 29, 64);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  

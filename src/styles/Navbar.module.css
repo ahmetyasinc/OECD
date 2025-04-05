@@ -1,0 +1,73 @@
+.header {
+  background-color: rgb(16, 29, 64);
+  border-bottom: 1px solid rgb(16, 29, 64);
+  padding: 12px 0;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.languageSelect {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: rgb(16, 29, 64);
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  gap: 6px;
+}
+
+.languageSelect select {
+  appearance: none;
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  color: rgb(16, 29, 64);
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.languageSelect select:focus {
+  outline: none;
+}
+
+.languageSelect::after {
+  content: "▼";
+  position: absolute;
+  right: 12px;
+  font-size: 10px;
+  pointer-events: none;
+  color: rgb(16, 29, 64);
+}
+
+.languageSelect:hover {
+  background-color: #f0f0f0;
+}
+
+.icon {
+  font-size: 16px;
+}
