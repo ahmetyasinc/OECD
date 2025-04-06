@@ -5,7 +5,7 @@ import useLanguageStore from "@/store/languageStore";
 
 const getDaysLeft = () => {
   const now = new Date();
-  const deadline = new Date("2025-04-15T23:59:00"); // 15 Nisan 2025, 23:59
+  const deadline = new Date("2025-04-17T23:59:00"); // 17 Nisan 2025, 23:59
 
   const diffTime = deadline.getTime() - now.getTime();
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
@@ -243,9 +243,9 @@ export default function HomeContent() {
             {t.applyNow}
           </Link>
           <p className={styles.deadline}>
-          {language === 'tr' && `${daysLeft} gün kaldı (15 Nisan 23:59'a)`}
-          {language === 'en' && `${daysLeft} day(s) left until April 15, 11:59 PM`}
-          {language === 'fr' && `Il reste ${daysLeft} jour(s) jusqu’au 15 avril à 23h59`}
+          {language === 'tr' && `${daysLeft} gün kaldı (17 Nisan 23:59'a)`}
+          {language === 'en' && `${daysLeft} day(s) left until April 17, 11:59 PM`}
+          {language === 'fr' && `Il reste ${daysLeft} jour(s) jusqu’au 17 avril à 23h59`}
         </p>
           
         </div>
