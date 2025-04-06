@@ -25,7 +25,7 @@ export default function DownloadPage() {
       </p>
 
       <div style={{ marginTop: '40px', textAlign: 'center' }}>
-        <a href="/TheOECD_internship_assesment.exe" download style={{ textDecoration: 'none' }}>
+        <a href="/TheOECD_internship_assesment.zip" download style={{ textDecoration: 'none' }}>
           <button style={{
             padding: '12px 24px',
             fontSize: '16px',
